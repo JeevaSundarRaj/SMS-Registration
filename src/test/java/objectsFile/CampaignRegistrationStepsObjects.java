@@ -172,17 +172,17 @@ public class CampaignRegistrationStepsObjects {
         //campaign description page
 
         WebElement commPurpose = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-mt16 d-input__root']//label[@class='d-input__label']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-input__root d-mt16']//textarea[@placeholder='Describe your communication purposes here']"))
         );
         commPurpose.sendKeys(commPurposeStr);
 
         WebElement radio1 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//body[1]/div[1]/div[3]/div[2]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/fieldset[1]/div[1]/label[1]/div[1]/input[1]"))
+                ExpectedConditions.elementToBeClickable(By.xpath("(//input[@name='is_age_gated'])[1]"))
         );
         radio1.click();
 
         WebElement radio2 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//body[1]/div[1]/div[3]/div[2]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[2]/fieldset[1]/div[1]/label[1]/div[1]/input[1]"))
+                ExpectedConditions.elementToBeClickable(By.xpath("(//input[@name='is_direct_lending'])[1]"))
         );
         radio2.click();
 
@@ -190,6 +190,8 @@ public class CampaignRegistrationStepsObjects {
                 ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='verbal']"))
         );
         checkBox1.click();
+
+        Thread.sleep(2000);
 
         WebElement radio3 = wait.until(
                 ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='in person']"))
@@ -211,8 +213,13 @@ public class CampaignRegistrationStepsObjects {
         );
         radio4.click();
 
+        WebElement checkBox11 = wait.until(
+                ExpectedConditions.elementToBeClickable(By.xpath("(//input[@value='verbal-consent'])[1]"))
+        );
+        checkBox11.click();
+
         WebElement checkBox2 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='verbal-consent']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-d-flex d-fd-row d-ai-center d-mt8']//div//input[@type='checkbox']"))
         );
         checkBox2.click();
 
@@ -225,11 +232,12 @@ public class CampaignRegistrationStepsObjects {
                 ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-mr12 d-mt8']//input[@name='recurrence-pattern']"))
         );
         radio5.click();
-
-        WebElement checkBox3 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-d-flex d-fd-row d-ai-center d-mt8']//div//input[@type='checkbox']"))
-        );
-        checkBox3.click();
+//        Thread.sleep(4000);
+//
+//        WebElement checkBox3 = wait.until(
+//                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-fs-100 d-mt4 d-checkbox__copy d-checkbox__label']"))
+//        );
+//        checkBox3.click();
 
         WebElement checkBox4 = wait.until(
                 ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='employees']"))
@@ -242,12 +250,12 @@ public class CampaignRegistrationStepsObjects {
         checkBox5.click();
 
         WebElement supportWeb = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-mt24 d-input__root']//label[@class='d-input__label']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='URL, email address or phone number']"))
         );
         supportWeb.sendKeys(supportWebStr);
 
         WebElement nxtBtn2 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='d-ml12 base-button__button d-btn d-btn--primary']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("(//button[@class='base-button__button d-btn d-btn--primary d-ml12'])[1]"))
         );
         nxtBtn2.click();
 
@@ -265,7 +273,7 @@ public class CampaignRegistrationStepsObjects {
         checkBox7.click();
 
         WebElement nxtBtn3 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='d-ml12 base-button__button d-btn d-btn--primary']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='base-button__button d-btn d-btn--primary d-ml12']"))
         );
         nxtBtn3.click();
 
@@ -290,7 +298,7 @@ public class CampaignRegistrationStepsObjects {
         commPurpose3.sendKeys(commPurpose3Str);
 
         WebElement nxtBtn4 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='d-ml12 base-button__button d-btn d-btn--primary']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='base-button__button d-btn d-btn--primary d-ml12']"))
         );
         nxtBtn4.click();
 
@@ -327,21 +335,21 @@ public class CampaignRegistrationStepsObjects {
         checkBox10.click();
 
         WebElement nxtBtn5 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='d-ml12 base-button__button d-btn d-btn--primary']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='base-button__button d-btn d-btn--primary d-ml12']"))
         );
         nxtBtn5.click();
 
         //privacy statement
 
         WebElement webSite2 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='d-mt16 d-mb16 d-input__root']//label[@class='d-input__label']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='brand-company-privacy-statement-link']"))
         );
         webSite2.sendKeys(webSite2Str);
 
-        WebElement checkBox11 = wait.until(
+        WebElement checkBox = wait.until(
                 ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='I understand that if my website accepts phone numbers that the submission form must include a link to the Privacy Policy.']"))
         );
-        checkBox11.click();
+        checkBox.click();
 
         WebElement checkBox12 = wait.until(
                 ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='My Privacy Policy indicates what information is being collected, how it is used, and how users can opt-out.']"))
@@ -354,7 +362,7 @@ public class CampaignRegistrationStepsObjects {
         checkBox13.click();
 
         WebElement nxtBtn6 = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='d-ml12 base-button__button d-btn d-btn--primary']"))
+                ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='base-button__button d-btn d-btn--primary d-ml12']"))
         );
         nxtBtn6.click();
 
@@ -444,7 +452,7 @@ public class CampaignRegistrationStepsObjects {
         menuIcon_brand.click();
 
         WebElement delete = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(text(),'Delete')]"))
+                ExpectedConditions.elementToBeClickable(By.xpath("(//div[normalize-space()='Delete'])[3]"))
         );
         delete.click();
 

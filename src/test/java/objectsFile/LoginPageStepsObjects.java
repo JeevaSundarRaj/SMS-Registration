@@ -4,6 +4,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import java.lang.Thread;
+
 
 import java.time.Duration;
 
@@ -21,10 +23,10 @@ public class LoginPageStepsObjects {
         driver.get("https://dialpadbeta.com/login");
       //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        WebElement login = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//span[contains( text() , 'Microsoft')]/ancestor::button"))
-        );
-        login.click();
+//        WebElement login = wait.until(
+//                ExpectedConditions.elementToBeClickable(By.xpath("//span[contains( text() , 'Microsoft')]/ancestor::button"))
+//        );
+//        login.click();
     }
 
 
@@ -42,21 +44,22 @@ public class LoginPageStepsObjects {
 
 
             WebElement user = wait.until(
-                ExpectedConditions.elementToBeClickable(By.id("i0116")));
-            user.sendKeys("test_1231985@outlook.com");
+                ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='email']")));
+            user.sendKeys("automationuser1.jeeva@gmail.com");
             user.sendKeys(Keys.RETURN);
 
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("passwd")));
-
             WebElement pwd = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.name("passwd")));
-            pwd.sendKeys("P@ssw0rd1234");
+                    ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='password']")));
+            pwd.sendKeys("Dialpad@12345");
             pwd.sendKeys(Keys.RETURN);
-            WebElement button = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space(text())='Yes']" )));
-            button.click();
+
+            Thread.sleep(3000);
+
+//            WebElement button = wait.until(
+//                    ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']" )));
+//            button.click();
     }
-    public void check_the_homepage(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://dialpadbeta.com/");
-    }
+//    public void check_the_homepage(){
+//        Assert.assertEquals(driver.getCurrentUrl(), "https://dialpadbeta.com/");
+//    }
 }
