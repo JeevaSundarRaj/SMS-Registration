@@ -1,51 +1,38 @@
 package stepDefinition;
 
 import io.cucumber.java.en.And;
-import objectsFile.CampaignRegistrationStepsObjects;
-import objectsFile.LoginPageStepsObjects;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.TestObject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-import java.io.IOException;
+import objectsFile.CampaignRegistrationStepsObjects;
+import utils.TestObject;
 
 public class CampaignRegistrationSteps {
-
-    public WebDriver driver;
-    TestObject testObject;
-    WebDriverWait wait;
+    private final TestObject testObject;
+    private final CampaignRegistrationStepsObjects campaignPage;
 
     public CampaignRegistrationSteps(TestObject testObject) {
-
         this.testObject = testObject;
+        this.campaignPage = new CampaignRegistrationStepsObjects(testObject);
     }
 
     @Given("User is in campaign registration page")
     public void user_is_in_campaign_registration_page() {
-        CampaignRegistrationStepsObjects campaignRegistrationStepsObject = new CampaignRegistrationStepsObjects(testObject.driver, testObject.wait);
-        campaignRegistrationStepsObject.navigating_to_campaignPage();
+        campaignPage.navigateToCampaignPage();
     }
 
     @When("User registers my brand and campaign")
-    public void user_registers_my_brand() throws IOException, InterruptedException {
-        CampaignRegistrationStepsObjects campaignRegistrationStepsObject = new CampaignRegistrationStepsObjects(testObject.driver, testObject.wait);
-        campaignRegistrationStepsObject.campaignRegistration();
+    public void user_registers_my_brand() throws InterruptedException {
+        campaignPage.campaignRegistration();
     }
 
     @And("Brand and Campaign registered successfully")
-    public void user_registers_my_campaign() {
-        CampaignRegistrationStepsObjects campaignRegistrationStepsObject = new CampaignRegistrationStepsObjects(testObject.driver, testObject.wait);
-        campaignRegistrationStepsObject.registeredSuccessfully();
+    public void brand_and_campaign_registered_successfully() throws InterruptedException {
+        campaignPage.verifyRegistrationSuccess();
     }
 
     @Then("User Deletes the registration")
-    public void brand_and_campaign_registered_successfully() {
-        CampaignRegistrationStepsObjects campaignRegistrationStepsObject = new CampaignRegistrationStepsObjects(testObject.driver, testObject.wait);
-        campaignRegistrationStepsObject.deleteCampaign();
-
+    public void user_deletes_registration() throws InterruptedException {
+        campaignPage.deleteCampaign();
     }
-
 }

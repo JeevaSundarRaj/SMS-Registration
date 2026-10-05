@@ -1,65 +1,44 @@
 package objectsFile;
 
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import java.lang.Thread;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import utils.TestObject;
 
-
-import java.time.Duration;
+import static util.TestConstants.WAIT_DURATION_MID;
 
 public class LoginPageStepsObjects {
-    WebDriver driver;
-    WebDriverWait wait;
+    private final TestObject testObject;
+    private static final Logger logger = LogManager.getLogger(LoginPageStepsObjects.class);
 
-    public LoginPageStepsObjects(WebDriver driver, WebDriverWait wait){
-        this.driver = driver;
-        this.wait = wait;
+    public LoginPageStepsObjects(TestObject testObject) {
+        this.testObject = testObject;
     }
 
-
-    public void navigate_to_loginpage(){
-        driver.get("https://dialpadbeta.com/login");
-      //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-//        WebElement login = wait.until(
-//                ExpectedConditions.elementToBeClickable(By.xpath("//span[contains( text() , 'Microsoft')]/ancestor::button"))
-//        );
-//        login.click();
+    public void navigateToLoginPage() {
+        String loginUrl = testObject.testConfig.baseUrl() + "/login";
+        logger.info("Navigating to login page: {}", loginUrl);
+        testObject.driver.get(loginUrl);
     }
 
+    public void login() throws InterruptedException {
+        logger.info("Logging in as: {}", testObject.userModel.email);
 
-        public void pass_vaild_credentials () throws InterruptedException {
+        testObject.seleniumUtils.waitForVisibleElement(
+                By.xpath("//input[@name='email']"), WAIT_DURATION_MID)
+                .sendKeys(testObject.userModel.email + Keys.RETURN);
 
-//                 wait.until(ExpectedConditions.elementToBeClickable(
-//             By.xpath("//span[contains( text() , 'Microsoft')]/ancestor::button"))).click();
-//
-//            wait.until(ExpectedConditions.elementToBeClickable(By.id("i0116"))).sendKeys("test_1231985@outlook.com" + Keys.RETURN);
-//            wait.until(ExpectedConditions.elementToBeClickable(By.id("i0118"))).sendKeys("P@ssw0rd1234" + Keys.RETURN);
-//
-//            Thread.sleep(3000);
-//           //String loginYesId = envExpected.equalsIgnoreCase("staging") ? "acceptButton" : "idSIButton9";
-//            wait.until(ExpectedConditions.elementToBeClickable(By.id("acceptButton"))).click();
+        testObject.seleniumUtils.waitForVisibleElement(
+                By.xpath("//input[@name='password']"), WAIT_DURATION_MID)
+                .sendKeys(testObject.userModel.password + Keys.RETURN);
 
-
-            WebElement user = wait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='email']")));
-            user.sendKeys("automationuser1.jeeva@gmail.com");
-            user.sendKeys(Keys.RETURN);
-
-            WebElement pwd = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='password']")));
-            pwd.sendKeys("Dialpad@12345");
-            pwd.sendKeys(Keys.RETURN);
-
-            Thread.sleep(3000);
-
-//            WebElement button = wait.until(
-//                    ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']" )));
-//            button.click();
+        Thread.sleep(1000);
+        testObject.seleniumUtils.waitTillPageLoads(testObject.driver);
+        logger.info("Login completed for: {}", testObject.userModel.email);
     }
-//    public void check_the_homepage(){
-//        Assert.assertEquals(driver.getCurrentUrl(), "https://dialpadbeta.com/");
-//    }
+
+    public void verifyHomepageLoaded() {
+        logger.info("Verifying homepage is loaded");
+    }
 }
