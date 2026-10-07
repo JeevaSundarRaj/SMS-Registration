@@ -5,10 +5,11 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "classpath:featureFile/faxLine.feature",
+        features = { "classpath:featureFile/smsRegistration.feature"},
         glue = {"stepDefinition"},
         monochrome = true,
         plugin = {
+                "pretty:reports/execution-result.txt",
                 "html:reports/html/cucumber-report.html",
                 "json:reports/json/cucumber-report.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"

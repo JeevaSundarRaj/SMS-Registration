@@ -1,0 +1,847 @@
+2026-10-07 10:54:47.401 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 10:55:07.687 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:55:07.688 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 10:55:09.406 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 10:55:15.997 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 10:55:15.999 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 10:55:15.999 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 10:55:19.110 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'User' to 'User'
+2026-10-07 10:55:23.151 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cdd420a2c7628bedce37487ae3b4486, clickElement {id=f.06BD01CFB3C2A9220AC42C79387C07BF.d.671FC94C4E787513E9B0C56A7C96F02A.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50708}, goog:processID: 3432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50708/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9cdd420a2c7628bedce37487ae3b4486)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9cdd420a2c7628bedce37487ae3b4486
+2026-10-07 10:55:24.854 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cdd420a2c7628bedce37487ae3b4486, clickElement {id=f.06BD01CFB3C2A9220AC42C79387C07BF.d.671FC94C4E787513E9B0C56A7C96F02A.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50708}, goog:processID: 3432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50708/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9cdd420a2c7628bedce37487ae3b4486)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9cdd420a2c7628bedce37487ae3b4486
+2026-10-07 10:55:26.433 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cdd420a2c7628bedce37487ae3b4486, clickElement {id=f.06BD01CFB3C2A9220AC42C79387C07BF.d.671FC94C4E787513E9B0C56A7C96F02A.e.223}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50708}, goog:processID: 3432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50708/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9cdd420a2c7628bedce37487ae3b4486)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9cdd420a2c7628bedce37487ae3b4486
+2026-10-07 10:55:29.113 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 10:55:29.115 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 10:56:14.863 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 10:56:14.866 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser2.jeeva@gmail.com
+2026-10-07 10:56:33.554 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: stale element reference: stale element not found in the current frame
+  (Session info: chrome=155.0.8059.39)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad97257c71841c752cc6ec356e8a290c, clickElement {id=f.72180BDD90D6609F63A7CAA6E65895B3.d.7D56DCC6D6438109BA5BF72D42D29396.e.98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50777}, goog:processID: 3547, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50777/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (ad97257c71841c752cc6ec356e8a290c)] -> xpath: //button[normalize-space()='Faxes']]
+Session ID: ad97257c71841c752cc6ec356e8a290c
+2026-10-07 10:56:36.693 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdgLfanW0G8jqc3s8q4GzZwHhAStisE5Xul9pcZYK7QPRAUJeOC4MB-gBongCZXeDpy1S9qjV9GB56GigcYpUluEh-L2tOEH91kDb3ZahkH3YmmIjE1bDabrMhac-N_wDYoDHHjdN61jdj5Z4qhE1QxZI9oD50MGsd1iTTqdhFiNojONlkAdBybkflIzepuFmJzQNv_PQOyGBXckJRVOdMA2Vmby29VEYIQPRxv8Zol9Q8A7bK1mczD0iKcZ1bAXEWxgvkZr2JxCJqLvlBjsS_Po7TzzaAyAFTOB30w0chXsSUI76XE-y0F-Irs_VJLujzJeI6-qdM5TcEJ-tGWsBc9I3B7JzhHG1u13wKOg7lZoiBfONNUaJJZbkadwClx4Ygyt_udiak2tCsQ9R54vK3nYo_qNmc5tBdg5ojv9IdIe-9ZN4T1b8p6CDh43w0bdJV_knzBN47t9vGO7glb1bD9LYb96_2rCpFmtH1e9tSuBNBG3-l6QfHK57J4Cz4VcRyeLKK48hkXCqoIM-k-S9stJwZMSgHN2MTUchk-m-00yWbYXy77EeyHooKxkBLtCj_vL
+2026-10-07 10:56:36.737 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 10:56:36.737 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 10:56:47.032 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:56:48.726 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:56:48.726 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 10:56:50.211 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 10:56:55.253 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 10:56:55.254 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 10:56:55.254 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 10:56:57.063 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'User' to 'CC'
+2026-10-07 10:57:01.435 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5b5202de5c7f59e16a399c0d12454ad, clickElement {id=f.7A7121D34755E1BF885C77129F1D735B.d.E68EAEFBE221BF06F6FE76EFB194E554.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50852}, goog:processID: 3650, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50852/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b5b5202de5c7f59e16a399c0d12454ad)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: b5b5202de5c7f59e16a399c0d12454ad
+2026-10-07 10:57:03.034 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5b5202de5c7f59e16a399c0d12454ad, clickElement {id=f.7A7121D34755E1BF885C77129F1D735B.d.E68EAEFBE221BF06F6FE76EFB194E554.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50852}, goog:processID: 3650, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50852/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b5b5202de5c7f59e16a399c0d12454ad)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: b5b5202de5c7f59e16a399c0d12454ad
+2026-10-07 10:57:04.644 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5b5202de5c7f59e16a399c0d12454ad, clickElement {id=f.7A7121D34755E1BF885C77129F1D735B.d.E68EAEFBE221BF06F6FE76EFB194E554.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50852}, goog:processID: 3650, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50852/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (b5b5202de5c7f59e16a399c0d12454ad)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: b5b5202de5c7f59e16a399c0d12454ad
+2026-10-07 10:57:07.303 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'CC', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 10:57:07.304 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 10:57:52.580 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 10:57:52.581 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser1.jeeva@gmail.com
+2026-10-07 10:58:06.591 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'CC': Test Automation | Just now | • Inbound
+2026-10-07 10:58:08.002 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdhnNm1nDZbp-CzYifAzwDPuYTZY_38fLL1UX7NFv9Z_KUYidc4gNd4G4VlWvbRfd5BCpdOlruj93i_iVabKW0-cS_cTCA5ZX6lovlwzsQfGGPGXTzSPmtOfnVxAn-Y_QAzDDEP40Gcb8sAlTJXH-9BKpQuOLfvLuYvQI0CPH6QbiaARs9AYIsJ8hG8HCapcRvjnTFRYJUdYqhkeUCDpi_wibOVGXHEtcXu7QF6HmD4RT2AlYxo2LMOcnijhIUFuILKPYfQJILcFYtFoyF8gp_7UvcpMpPo_lVm-C70x9252HO2LyWDuwteviaZJUoApRvtc-ECqWxNdHFXg_POj4qsCD2ZK6lhGqgDlMvm6WNbtu3x7GZkelsl1dorGlolXvVbfwwWikh7RrIgvENxhE-mtR0oFn8nfblXircaAhIhvcEoPcGlXo8raiqOxhu4cXO9ecCceFGjMN6RsVcVBuwko4iNkDCM4r_eNhAiIBpkVOC7sOWsnLPdYTCEGdh6R21ijUoR3HX23m_QQ-_pbf5yW1WPBDiiT7Srz0Jmh5Ly5rdHRRhkYZJpJK7TW1APcD0xJ
+2026-10-07 10:58:08.056 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 10:58:08.056 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 10:58:08.314 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:58:10.055 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:58:10.055 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 10:58:12.719 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 10:58:18.061 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 10:58:18.062 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 10:58:18.062 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 10:58:20.413 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'Dept' to 'CC'
+2026-10-07 10:58:26.321 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'Dept', receiver: 'CC', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 10:58:26.322 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 10:59:12.464 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 10:59:12.465 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser1.jeeva@gmail.com
+2026-10-07 10:59:30.505 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'CC': test dept | Just now | • Inbound
+2026-10-07 10:59:31.932 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdi7LmtJ3r7n-MicxmrBIf3BUKVJ_YHTKWxMs7JOjmu1Runfuy--1suLDyg9skDpZhamlug-dVS0a_GF1DLeB0GzQ9Sn7Y0l6RDBy_tzDmv7ChGTIUMCPBsPFbz34T6jJk1nQsG1JC78dJnRMpufJrDPaP7lKUS0xdMlfT2jKOkszTGs_MuMuqYLZ__F1W-FAu3mRa2r-KRqxvFTy_1rm8kd9QH9zlYUk7hZJ2JGmY4uGremkAciDr7dpvQbc7qL5YBbazq5ae_kci0-HQUhx2NEBZH-qH6E2JhtbxK2jogPyqBopIoNfUR83--ENLbF06O-bAKlVUCGXsSJsQOW_cVj3EmO0IqmrxZXt2UN--PkLBpKKbtg2qOB6ghyWAvBKOHICDnmlxCFVhcHAOInCoZWDWSgJsvKyWrAlAEmA0YXLoDcQ03RSe2N9lv-3FExSQvl229CYyZFi_ukQhO0c1BV1q7BhXn58V519BqNjTOx6T2KT6nHMV8QMNxunXsz0hJIqN926FHJkF3ML7Zm2ha8n50eZ_lVROTqgAbs7OoZpxRAS187YfzcljkBxIdpK9Fd
+2026-10-07 10:59:31.978 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 10:59:31.978 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 10:59:32.237 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:59:33.969 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 10:59:33.969 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 10:59:35.649 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 10:59:41.377 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 10:59:41.378 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 10:59:41.379 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 10:59:43.617 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'User' to 'Dept'
+2026-10-07 10:59:48.172 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c73c2e5d508c104178832b26d59efd1, clickElement {id=f.F11E9ACF44BE860292D3D4CACA9F5409.d.954AEDB7CB2E45A71EB29B09F2B734D5.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51126}, goog:processID: 4032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51126/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4c73c2e5d508c104178832b26d59efd1)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 4c73c2e5d508c104178832b26d59efd1
+2026-10-07 10:59:49.753 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c73c2e5d508c104178832b26d59efd1, clickElement {id=f.F11E9ACF44BE860292D3D4CACA9F5409.d.954AEDB7CB2E45A71EB29B09F2B734D5.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51126}, goog:processID: 4032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51126/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4c73c2e5d508c104178832b26d59efd1)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 4c73c2e5d508c104178832b26d59efd1
+2026-10-07 10:59:51.356 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c73c2e5d508c104178832b26d59efd1, clickElement {id=f.F11E9ACF44BE860292D3D4CACA9F5409.d.954AEDB7CB2E45A71EB29B09F2B734D5.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51126}, goog:processID: 4032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51126/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (4c73c2e5d508c104178832b26d59efd1)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 4c73c2e5d508c104178832b26d59efd1
+2026-10-07 10:59:54.015 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'Dept', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 10:59:54.015 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 11:00:38.844 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 11:00:38.844 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser1.jeeva@gmail.com
+2026-10-07 11:00:55.298 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'Dept': Test Automation | Just now | • Inbound
+2026-10-07 11:00:56.842 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdkP2KiUoLABmEkg5xuMYyzyScEZUt7_Y6cDXs59chiUod6bE8Y-JwgFgqRujJ0N9LrqE6BQzyrbtXl2dAk7jWuNNWuTBKZA1FPaJ5gEzgVtko6vywXJdbfz6ZHmVWNN6rhX9zRKrzND9_Ts6o79m-jA8cEwqSPb0_By_KRdKuFhHCC3VB2XWYkVcuHgh2t5U4BGLBRq2khMN_l_PvjzVq8W-9lKyT2DdVQxlj5lG2tQISQmX2ikW8WKoEHfxdZIQvV8CJ1wrbU8Ufr0geSJty2kNtqW9QIjg_cuiX9BH4U77iDSw5ecvR-Pr7-fFxViJWIq5djjWVO-kWNNIAxPkj3pLpiS50pNkocRIY9Mmx34-bEhZ7HcqK-Akj_yCd9W89gxJHBYJ9lTYs9oSbGdxS8uFxHh0FgCUs1hnqbZGqnw0RF5rBoUYciql6uylDvvjHfiKB62G6tPfTYKlGo6SKU921yokqhPUWvX03S1NDDPAaYzDAaY5SH1p6bUtXXDLAWhLzsF68nls0x1QE-bTOZrjMV3dN5XoFaUxN4zyPTQLFGCloBBTvOo37u1NAl12nIz
+2026-10-07 11:00:56.889 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:00:56.889 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 11:00:57.163 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:00:58.921 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:00:58.921 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:01:01.660 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:01:07.769 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:01:07.770 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:01:07.770 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 11:01:09.962 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'CC' to 'Dept'
+2026-10-07 11:01:16.152 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'CC', receiver: 'Dept', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:01:16.152 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 11:02:01.744 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 11:02:01.745 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser1.jeeva@gmail.com
+2026-10-07 11:02:17.655 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'Dept': test cc | Just now | • Inbound
+2026-10-07 11:02:19.677 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdliQYlVA5R5XSWUQZdOOaI3lCVqrMl3jhSZjOLIpIsdGnp5CfpGRcJY6JEc44AGve1l4FGjEWhCSHfBamudu4P-QMWKm9MXmlQQ7N3X-K7pZwZD4YjNsCDamFowKRv8GcelsL5pECj4UjsNsu3pJ78pkHPFkm_u2x_b6WTbLUluD-D_SXRCkby7bfphPvgAKa436hPgnOTCViN8HbqVOyBQ59Qcy2_njUSI1jhLllpXWSmGynlBp6cZrqIbXILZcMOn0JKS9UXw9jYwp2LWE5PKbwqX5tZwm_A85XPo4HPxtc40wX-_cCVehRR5_YAi0O7Pc3-M7_TnOk1lk04mNYKbYTP9Jr6fngM3iETe365yrHb18G_cc06AbfQum-QvORRLbMeE7Kkssc-ff9j5zh5u2bnYCLCKsPd8FnpmgxiAvEP1gwWPFzVhNLydh-T_sUPupf4XD4UJ_Xcm7kAMWHxMJkoU7MzBdCwpJnLxTIulWB_DAdWPg0CcypYSNsJ_c83cf0dl5DKlla6TJPhQ-tCzfAmnSkTyb6JyHgiNZXhYBEkTQn01qL2MwtiCsNP71Rry
+2026-10-07 11:02:19.720 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:02:19.720 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 11:02:19.998 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:02:21.714 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:02:21.714 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:02:24.167 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:02:30.003 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:02:30.004 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:02:30.004 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 11:02:34.010 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'CC' to 'CC2'
+2026-10-07 11:02:38.984 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'CC', receiver: 'CC2', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:02:38.984 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 11:03:25.399 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 11:03:25.400 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser2.jeeva@gmail.com
+2026-10-07 11:03:44.858 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'CC2': test cc | Just now | • Inbound
+2026-10-07 11:03:46.294 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdm5NWjBC_cl1y7NhkoU76dz7JrgwZrxr2V7Y_i53GjXO5e0TvWZVDgxfPjVSVdod3pZiLdhhMsrTABXwvH79UyMZyILI5KFanYbPT1Xm1fo24i8csylOte-KRz8I5XuPFyn5q2kQAIkSHFwVgKeLh1dAW-1r6ycI3n2QG0-e3xlR5O6pEDb9LMgb1b-D3cy-8Dqqv8VyBJ8fhySbi1BNGLAhjCk3B7Pu6Gxtsu8BZtKbKjvSh39rlP-Y0FOfmfyVgpiBhTf-oF6eky4RyKYhISgaMAomIIAVphsVh93Vb9G1Zt4qE6UvTkELn9jwVcDLhskz2glGHNzhrtxPKg5FOcR0XYQKNUIHUQCebxw2tlTrZz809Y9N4GBVPgPAdbmF-A5dM63b4xmijFgK-6At68u-vrzQ4RNuq3oq5DUuHD_oOG0dY_3GfVZAC5h-3jTXQbJ12-lWnzsW22DqHse2v3v0_soi9LtrhtECYhQN259-bgraAZreA-mjHzdXycaaXGHiPJIIv8XdUgP6m-w53vP1BYvEPOO6piV2autlhZ4LdYZ0a1PIpVKCDyDWKlwYbml
+2026-10-07 11:03:46.335 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:03:46.335 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 11:03:56.630 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:03:58.490 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:03:58.490 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:04:00.177 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:04:08.086 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:04:08.087 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:04:08.087 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 11:04:10.364 [main] INFO  objectsFile.FaxLineStepObjects - Sending fax from 'Dept' to 'Dept2'
+2026-10-07 11:04:15.784 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'Dept', receiver: 'Dept2', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:04:15.785 [main] INFO  objectsFile.FaxLineStepObjects - Validating fax delivery status
+2026-10-07 11:05:00.657 [main] INFO  objectsFile.FaxLineStepObjects - Fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 11:05:00.657 [main] INFO  objectsFile.FaxLineStepObjects - Opening second browser and logging in as receiver: automationuser2.jeeva@gmail.com
+2026-10-07 11:05:18.171 [main] INFO  objectsFile.FaxLineStepObjects - First fax row on 'Dept2': test dept | Just now | • Inbound
+2026-10-07 11:05:19.971 [main] INFO  objectsFile.FaxLineStepObjects - Download fax opened new tab: https://dialpadbeta.com/blob-server/d/gAAAAABqxdoW3K_99iM3qk66_U5e2DuNWU57oY97LdL-IeZ9rPHAxuILIztnaXcaYi54jWvacmoakjNJYqifX5rqrMrC2rwuKUtPVMsvlcuh7qSJK6OTW_vs4sfvhEc3yLBfUFnzSTp_08UqeN5cfHtMpfUnt9Ig11Q2880w0o6kN_IW_Rrg0bOJqZPWcXadnGxWJW_O6NxJ-BDCnBoMjkzAyxWE9Iia2RUwLniYYKIJ2uyxHTlFDWg9bHRcGEPEEMKlD6jeOmy5GXZYzvNryrNYJsjlkKscHFe3qTrT28oC4Dzf0w9Zl8hQF_MvuluJZrV3TQLNSMW8dRR6VFybThsZdE5_W4AkO0X6k3lL75ZqMCAn4cvIxhYz_kUUR2PSXDbtFpg4ut_uvElekYETWoSq6QanV8e0H32ofReI1o2pJh1EKjWstEqVFrTPu6sd3kReJB7bWZtqbyN-Hcj-_QDSnLuuTYAiREjTdar6-ggPCniK38LPWCm91XHnsk9hUV5h35VxznyX8J4t2_j0SK6_XPInABRHPzMElSbyoRxX9w2-_ZqM2906NUrzYsOOX-lqJbC9Nikn
+2026-10-07 11:05:20.024 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:05:20.024 [main] INFO  utils.TestObject - Quitting secondary browser window
+2026-10-07 11:05:20.297 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:05:22.155 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:05:22.156 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:05:24.279 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:05:31.575 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:05:31.576 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:05:31.576 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 11:05:33.731 [main] INFO  objectsFile.FaxLineStepObjects - Sending multiple faxes continuously to trigger concurrent limit
+2026-10-07 11:05:36.937 [main] INFO  objectsFile.FaxLineStepObjects - Fax attempt 1 of 6
+2026-10-07 11:05:38.156 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:39.736 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:41.325 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:44.012 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:05:44.012 [main] INFO  objectsFile.FaxLineStepObjects - Fax attempt 2 of 6
+2026-10-07 11:05:45.086 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-btn--icon-only topbar-themed-button" data-qa="header-cta-fax" aria-label="Fax" type="button" data-dt-tooltip-id="dt15">...</button> is not clickable at point (216, 80). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@aria-label='Fax']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:47.028 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.354}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:48.627 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.354}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:50.226 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.354}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:52.909 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:05:52.910 [main] INFO  objectsFile.FaxLineStepObjects - Fax attempt 3 of 6
+2026-10-07 11:05:54.004 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-btn--icon-only topbar-themed-button" data-qa="header-cta-fax" aria-label="Fax" type="button" data-dt-tooltip-id="dt15">...</button> is not clickable at point (216, 80). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@aria-label='Fax']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:56.111 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:57.726 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:05:59.342 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:02.008 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/Dialpa1fax.pdf
+2026-10-07 11:06:02.015 [main] INFO  objectsFile.FaxLineStepObjects - Fax attempt 4 of 6
+2026-10-07 11:06:03.074 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-btn--icon-only topbar-themed-button" data-qa="header-cta-fax" aria-label="Fax" type="button" data-dt-tooltip-id="dt15">...</button> is not clickable at point (216, 80). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@aria-label='Fax']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:04.689 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-btn--icon-only topbar-themed-button" data-qa="header-cta-fax" aria-label="Fax" type="button" data-dt-tooltip-id="dt15">...</button> is not clickable at point (216, 80). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@aria-label='Fax']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:06.270 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-btn--icon-only topbar-themed-button" data-qa="header-cta-fax" aria-label="Fax" type="button" data-dt-tooltip-id="dt15">...</button> is not clickable at point (216, 80). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@aria-label='Fax']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:07.869 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-pl-75 d-pr-100 d-ml-25 d-w-fit-content d-wmx-550" data-qa="dropdown-button" type="button" aria-expanded="true">...</button> is not clickable at point (559, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.443}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@data-qa='dropdown-button']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:09.445 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-pl-75 d-pr-100 d-ml-25 d-w-fit-content d-wmx-550" data-qa="dropdown-button" type="button" aria-expanded="true">...</button> is not clickable at point (559, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.443}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@data-qa='dropdown-button']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:11.032 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <button class="base-button__button d-btn d-btn--muted d-pl-75 d-pr-100 d-ml-25 d-w-fit-content d-wmx-550" data-qa="dropdown-button" type="button" aria-expanded="true">...</button> is not clickable at point (559, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.443}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //button[@data-qa='dropdown-button']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:12.607 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:14.213 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:15.773 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <dialog class="d-modal border-box" data-qa="dt-modal" aria-modal="true" aria-labelledby="dt526" open="">...</dialog>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d48e3eae354bcffd58ffac4596984b, clickElement {id=f.7C1038E1958E8E66B1BC43340BF281E6.d.8D4578E9E1A958FE52E8F961FC9897F4.e.444}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51691}, goog:processID: 4880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51691/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9d48e3eae354bcffd58ffac4596984b)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: d9d48e3eae354bcffd58ffac4596984b
+2026-10-07 11:06:16.365 [main] INFO  objectsFile.FaxLineStepObjects - Concurrent fax limit popup seen: 'Concurrent fax limit reached, please wait for existing faxes to process then try again.'
+2026-10-07 11:06:16.365 [main] INFO  objectsFile.FaxLineStepObjects - Concurrent fax limit popup blocked attempt 4
+2026-10-07 11:06:16.365 [main] INFO  objectsFile.FaxLineStepObjects - Verifying concurrent fax limit popup is displayed
+2026-10-07 11:06:16.365 [main] INFO  objectsFile.FaxLineStepObjects - Concurrent fax limit popup was observed during the fax burst
+2026-10-07 11:06:16.366 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:06:16.366 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:06:18.440 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:06:18.440 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:06:19.893 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:06:25.277 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:06:25.278 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:06:25.278 [main] INFO  objectsFile.FaxLineStepObjects - Navigating to Dialpad app: https://dialpadbeta.com/app
+2026-10-07 11:06:27.408 [main] INFO  objectsFile.FaxLineStepObjects - Sending large volume fax from 'User' to 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/flower.pdf
+2026-10-07 11:06:31.571 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 181). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a51c24422e19796ec5e7f57fc8c3815, clickElement {id=f.2A1C72DD6C0B8BB5414A73CE9A19F6E8.d.F45FF784C251416A08D119E93AAD9134.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51758}, goog:processID: 4976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51758/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9a51c24422e19796ec5e7f57fc8c3815)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9a51c24422e19796ec5e7f57fc8c3815
+2026-10-07 11:06:33.153 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a51c24422e19796ec5e7f57fc8c3815, clickElement {id=f.2A1C72DD6C0B8BB5414A73CE9A19F6E8.d.F45FF784C251416A08D119E93AAD9134.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51758}, goog:processID: 4976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51758/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9a51c24422e19796ec5e7f57fc8c3815)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9a51c24422e19796ec5e7f57fc8c3815
+2026-10-07 11:06:34.747 [main] INFO  util.SeleniumUtils - Element not clickable, retrying: element click intercepted: Element <span class="d-pl-100 d-body--md-compact d-truncate" data-qa="target-name">...</span> is not clickable at point (496, 180). Other element would receive the click: <div class="d-modal--transparent" data-qa="dt-popover-scrim" aria-hidden="false"></div>
+  (Session info: chrome=155.0.8059.39)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a51c24422e19796ec5e7f57fc8c3815, clickElement {id=f.2A1C72DD6C0B8BB5414A73CE9A19F6E8.d.F45FF784C251416A08D119E93AAD9134.e.141}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: /var/folders/df/nyrx63697sg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51758}, goog:processID: 4976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51758/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (9a51c24422e19796ec5e7f57fc8c3815)] -> xpath: //span[normalize-space()='Test Automation']]
+Session ID: 9a51c24422e19796ec5e7f57fc8c3815
+2026-10-07 11:06:37.411 [main] INFO  objectsFile.FaxLineStepObjects - Fax queued — sender: 'User', receiver: 'User', file: /Users/jeeva/IdeaProjects/SMS-Registration/src/test/resources/test_data/flower.pdf
+2026-10-07 11:06:37.411 [main] INFO  objectsFile.FaxLineStepObjects - Validating large volume fax delivery status
+2026-10-07 11:06:40.561 [main] INFO  objectsFile.FaxLineStepObjects - Waiting for large fax to be processed (2 minutes)...
+2026-10-07 11:08:40.572 [main] INFO  objectsFile.FaxLineStepObjects - Refreshing page before checking delivery status
+2026-10-07 11:08:47.169 [main] INFO  objectsFile.FaxLineStepObjects - Large fax delivery status: 'Fax
+Outbound • Status: success'
+2026-10-07 11:08:47.169 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:08:47.169 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:08:48.949 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 11:08:48.950 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 11:08:51.155 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 11:08:57.751 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 11:08:57.751 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 11:08:57.752 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 11:08:58.594 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 11:09:01.485 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 11:09:09.400 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 11:09:09.534 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 11:09:09.906 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 11:09:10.441 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 11:09:10.635 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 11:09:10.849 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 11:09:11.995 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 11:09:27.092 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 1/2)
+2026-10-07 11:09:52.847 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 2/2)
+2026-10-07 11:10:18.746 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 11:10:18.913 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_11-10-18.png
+2026-10-07 11:10:18.913 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 11:10:18.913 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:13:05.982 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:13:12.488 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:13:12.489 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:13:14.096 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:13:19.128 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:13:19.130 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:13:19.130 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:13:20.125 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:13:23.216 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:19:23.398 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:19:25.278 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:19:25.279 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:19:27.731 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:19:33.475 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:19:33.477 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:19:33.477 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:19:34.418 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:19:34.437 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Welcome to Dialpad,' found, nothing to delete
+2026-10-07 12:19:34.438 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:19:34.444 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Dialpad12' found, nothing to delete
+2026-10-07 12:19:34.444 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:19:37.531 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:20:54.523 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:20:54.525 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:20:56.097 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:21:01.577 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:21:01.579 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:21:01.580 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:21:02.644 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:21:02.666 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Welcome to Dialpad,' found, nothing to delete
+2026-10-07 12:21:02.667 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:21:02.672 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Dialpad12' found, nothing to delete
+2026-10-07 12:21:02.673 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:21:05.879 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:21:21.404 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 12:21:21.542 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_12-21-21.png
+2026-10-07 12:21:21.542 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:21:21.542 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:23:47.354 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:23:49.167 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:23:49.168 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:23:50.619 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:23:55.521 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:23:55.523 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:23:55.524 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:23:56.763 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:24:00.112 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:24:00.114 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:24:01.363 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:24:01.364 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:24:02.666 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:24:09.472 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:24:09.613 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:24:09.992 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:24:10.606 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:24:10.816 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:24:11.039 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:24:12.184 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:24:27.671 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 1/2)
+2026-10-07 12:24:57.611 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 2/2)
+2026-10-07 12:25:23.847 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 12:25:24.002 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_12-25-23.png
+2026-10-07 12:25:24.002 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:25:24.002 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:27:06.158 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:27:08.051 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:27:08.052 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:27:09.501 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:27:15.080 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:27:15.082 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:27:15.083 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:27:16.054 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:27:17.636 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:27:17.651 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:27:19.187 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:27:34.209 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 12:27:34.384 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_12-27-34.png
+2026-10-07 12:27:34.384 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:27:34.385 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:29:27.805 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:29:29.921 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:29:29.922 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:29:31.405 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:29:36.766 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:29:36.768 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:29:36.769 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:29:37.757 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:29:41.181 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:29:41.182 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:29:42.427 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:29:42.428 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:29:43.718 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:29:50.935 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:29:51.073 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:29:51.457 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:29:52.073 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:29:52.277 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:29:52.506 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:29:53.646 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:30:08.763 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 1/2)
+2026-10-07 12:30:20.019 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:30:22.310 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:30:22.311 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:30:24.973 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:30:36.570 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:30:38.604 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:30:38.605 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:30:41.101 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:30:46.962 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:30:46.964 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:30:46.965 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:30:47.840 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:32:07.048 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:32:08.958 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:32:08.959 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:32:11.333 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:32:15.864 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:32:15.865 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:32:15.867 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:32:16.743 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:35:06.827 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:35:09.031 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:35:09.032 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:35:10.495 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:35:15.964 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:35:15.965 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:35:15.967 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:35:16.975 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:35:19.851 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:35:19.852 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:35:20.566 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:35:20.567 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:35:21.971 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:35:28.729 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:35:28.877 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:35:29.270 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:35:29.856 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:35:30.117 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:35:30.365 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:35:31.511 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:35:46.619 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 1/2)
+2026-10-07 12:36:12.548 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 2/2)
+2026-10-07 12:36:38.776 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 12:36:38.924 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_12-36-38.png
+2026-10-07 12:36:38.924 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:36:38.924 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:39:16.824 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:39:18.749 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:39:18.750 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:39:21.142 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:39:26.325 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:39:26.328 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:39:26.329 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:39:27.245 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:39:39.387 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Welcome to Dialpad,' found, nothing to delete
+2026-10-07 12:39:39.391 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:39:49.738 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - No existing row 'Dialpad12' found, nothing to delete
+2026-10-07 12:39:49.739 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:39:51.305 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:39:58.624 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:39:58.764 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:39:59.140 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:39:59.726 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:40:00.082 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:40:00.335 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:40:01.477 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:40:51.059 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:40:51.062 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:40:52.871 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:40:57.164 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:40:57.166 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:40:57.167 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:40:58.035 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:41:01.510 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:41:16.915 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Create campaign only'
+2026-10-07 12:41:29.357 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:41:31.099 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:41:31.100 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:41:32.884 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:41:37.856 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:41:37.858 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:41:37.859 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:41:38.837 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:43:08.150 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:43:10.143 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:43:10.144 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:43:11.445 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:43:16.748 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:43:16.750 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:43:16.750 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:43:17.759 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:43:20.568 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:43:20.569 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:43:21.817 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:43:21.818 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:43:23.202 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:43:30.088 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:43:30.258 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:43:30.680 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:43:31.238 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:43:31.444 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:43:31.671 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:43:32.831 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:43:47.899 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 1/2)
+2026-10-07 12:44:13.947 [main] WARN  objectsFile.CampaignRegistrationStepsObjects - Registration success message not visible yet, refreshing page (attempt 2/2)
+2026-10-07 12:44:40.587 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Verify brand and campaign registration'
+2026-10-07 12:44:40.683 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Verify_brand_and_campaign_registration_2026-10-07_12-44-40.png
+2026-10-07 12:44:40.683 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:44:40.683 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:44:42.778 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:44:42.778 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:44:45.358 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:44:49.402 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:44:49.402 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:44:49.403 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:44:50.275 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:44:53.240 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:45:08.727 [main] WARN  stepDefinition.Hooks - Scenario FAILED: 'Create campaign only'
+2026-10-07 12:45:08.842 [main] INFO  stepDefinition.Hooks - Screenshot saved to: reports/screenshots/Create_campaign_only_2026-10-07_12-45-08.png
+2026-10-07 12:45:08.842 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:45:08.842 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:48:16.275 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:48:16.278 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:48:17.866 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:48:22.818 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:48:22.821 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:48:22.823 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:48:23.750 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:48:26.095 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:48:26.095 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:48:26.863 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:48:26.864 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:48:28.147 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:48:34.736 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:48:34.872 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:48:35.255 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:48:35.827 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:48:36.094 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:48:36.346 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:48:36.363 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message: Saving
+2026-10-07 12:48:37.499 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:48:37.541 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:48:37.541 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:50:03.219 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:50:03.222 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:50:05.398 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:50:09.822 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:50:09.824 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:50:09.825 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:50:10.696 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:50:14.182 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:50:14.183 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:50:15.434 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:50:15.435 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:50:16.770 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:50:23.518 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:50:23.667 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:50:24.054 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:50:24.630 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:50:24.841 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:50:25.087 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:50:25.980 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Saved campaign form successfully!
+2026-10-07 12:50:55.230 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Collected 1 toast message(s): [Saved campaign form successfully!]
+2026-10-07 12:50:55.356 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:50:55.418 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:50:55.418 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:51:14.500 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:51:14.501 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:51:16.689 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:51:21.547 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:51:21.549 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:51:21.550 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:51:22.472 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:51:25.940 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:51:25.941 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:51:26.648 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:51:26.648 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:51:27.974 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:51:27.991 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Campaign deleted
+2026-10-07 12:51:27.995 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #2: Brand and campaign deleted
+2026-10-07 12:51:29.142 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #3: Submit brand information successfully!
+2026-10-07 12:51:35.981 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:51:38.724 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:51:41.753 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:51:44.962 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:51:47.772 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:51:50.609 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:51:52.170 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #4: Saved campaign form successfully!
+2026-10-07 12:51:58.820 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Collected 4 toast message(s): [Campaign deleted, Brand and campaign deleted, Submit brand information successfully!, Saved campaign form successfully!]
+2026-10-07 12:51:58.928 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:51:58.992 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:51:58.992 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:53:34.018 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:53:34.021 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:53:35.734 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:53:40.012 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:53:40.014 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:53:40.014 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:53:40.902 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:53:43.854 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:53:43.855 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:53:45.083 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:53:45.084 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:53:46.426 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:53:46.445 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Campaign deleted
+2026-10-07 12:53:46.451 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #2: Brand and campaign deleted
+2026-10-07 12:53:47.405 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #3: Submit brand information successfully!
+2026-10-07 12:53:54.131 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:53:56.870 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:53:59.877 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:54:03.025 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:54:05.835 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:54:08.646 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:54:10.181 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #4: Saved campaign form successfully!
+2026-10-07 12:54:16.711 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Collected 4 toast message(s): [Campaign deleted, Brand and campaign deleted, Submit brand information successfully!, Saved campaign form successfully!]
+2026-10-07 12:54:16.826 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:54:16.869 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:54:16.870 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:57:19.445 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/jeeva/Library/Caches/JetBrains/IdeaIC2025.2/temp-testng-customsuite.xml
+
+2026-10-07 12:57:21.196 [main] INFO  utils.TestObject - WebDriver initialized for user: automationuser1.jeeva@gmail.com
+2026-10-07 12:57:21.197 [main] INFO  objectsFile.LoginPageStepsObjects - Navigating to login page: https://dialpadbeta.com/login
+2026-10-07 12:57:23.493 [main] INFO  objectsFile.LoginPageStepsObjects - Logging in as: automationuser1.jeeva@gmail.com
+2026-10-07 12:57:29.664 [main] INFO  objectsFile.LoginPageStepsObjects - Login completed for: automationuser1.jeeva@gmail.com
+2026-10-07 12:57:29.665 [main] INFO  objectsFile.LoginPageStepsObjects - Verifying homepage is loaded
+2026-10-07 12:57:29.665 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Navigating to campaign registration page: https://dialpadbeta.com/campaignregistration
+2026-10-07 12:57:30.576 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing campaign (My campaigns), if any
+2026-10-07 12:57:33.504 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Campaign deleted
+2026-10-07 12:57:35.980 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Welcome to Dialpad,' deleted
+2026-10-07 12:57:35.981 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Deleting existing brand Dialpad12, if any
+2026-10-07 12:57:36.152 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Campaign deleted
+2026-10-07 12:57:36.803 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #2: Brand and campaign deleted
+2026-10-07 12:57:39.319 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Row 'Dialpad12' deleted
+2026-10-07 12:57:39.321 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Starting brand and campaign registration
+2026-10-07 12:57:40.623 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Brand information submitted, moving to campaign registration
+2026-10-07 12:57:41.779 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #1: Submit brand information successfully!
+2026-10-07 12:57:48.336 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Campaign description submitted, moving to messaging types
+2026-10-07 12:57:51.110 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging types submitted, moving to messaging examples
+2026-10-07 12:57:54.128 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Messaging examples submitted, moving to content message
+2026-10-07 12:57:57.332 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Content message submitted, moving to privacy statement
+2026-10-07 12:58:00.163 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Privacy statement submitted, moving to summary
+2026-10-07 12:58:02.999 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Registration submitted
+2026-10-07 12:58:04.373 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Toast message #2: Saved campaign form successfully!
+2026-10-07 12:58:11.177 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Collected 2 toast message(s): [Submit brand information successfully!, Saved campaign form successfully!]
+2026-10-07 12:58:11.179 [main] INFO  objectsFile.CampaignRegistrationStepsObjects - Verifying registration success message
+2026-10-07 12:58:11.219 [main] INFO  stepDefinition.Hooks - Tearing down test - closing browser
+2026-10-07 12:58:11.219 [main] INFO  utils.TestObject - Quitting browser for user: automationuser1.jeeva@gmail.com

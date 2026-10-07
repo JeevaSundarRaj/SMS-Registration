@@ -1,0 +1,10 @@
+
+Scenario: Verify brand and campaign registration  # featureFile/smsRegistration.feature:7
+  Given User is in Login page                     # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password   # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is in campaign registration page     # stepDefinition.CampaignRegistrationSteps.user_is_in_campaign_registration_page()
+  When User deletes the existing campaign         # stepDefinition.CampaignRegistrationSteps.user_deletes_campaign()
+  And User deletes the existing brand             # stepDefinition.CampaignRegistrationSteps.user_deletes_brand()
+  And User registers my brand and campaign        # stepDefinition.CampaignRegistrationSteps.user_registers_my_brand()
+  Then Brand and Campaign registered successfully # stepDefinition.CampaignRegistrationSteps.brand_and_campaign_registered_successfully()

@@ -28,9 +28,11 @@ public class FaxLineStepObjects {
             System.getProperty("user.dir") + "/src/test/resources/test_data/Dialpa1fax.pdf";
 
     private static final By CONCURRENT_LIMIT_POPUP = By.xpath(
-            "//div[@class='message body-copy-7' and contains(text(),'Concurrent fax limit reached')]");
+            "//div[@data-qa='single-alert-body']//div[contains(@class,'d-body--md') and contains(normalize-space(),'Concurrent fax limit reached')]");
 
     private static final int MAX_CONCURRENT_FAX_ATTEMPTS = 6;
+
+    private boolean limitPopupSeen;
 
     private String lastSender = "user";
     private java.time.LocalDateTime lastSentAt;
@@ -70,20 +72,20 @@ public class FaxLineStepObjects {
         logger.info("Sending multiple faxes continuously to trigger concurrent limit");
         testObject.seleniumUtils.waitForInvisibility(By.id("logoCanvas"), WAIT_DURATION_MAX);
 
+        // Queue faxes back-to-back with no popup polling in between, so several are in flight at once
         for (int attempt = 1; attempt <= MAX_CONCURRENT_FAX_ATTEMPTS; attempt++) {
             logger.info("Fax attempt {} of {}", attempt, MAX_CONCURRENT_FAX_ATTEMPTS);
             try {
-                sendFaxRequest(sender, receiver, FAX_PDF_PATH);
-            } catch (org.openqa.selenium.ElementNotInteractableException e) {
-                // The limit popup from the previous attempt can appear late and block the compose pane
-                if (testObject.seleniumUtils.isDisplayed(CONCURRENT_LIMIT_POPUP, Duration.ofSeconds(2))) {
+                sendFaxRequest(sender, receiver, FAX_PDF_PATH, 1000);
+            } catch (org.openqa.selenium.WebDriverException e) {
+                // The limit popup can appear mid-burst and block the compose pane
+                if (limitPopupSeen || checkLimitPopup()) {
                     logger.info("Concurrent fax limit popup blocked attempt {}", attempt);
                     return;
                 }
                 throw e;
             }
-
-            if (testObject.seleniumUtils.isDisplayed(CONCURRENT_LIMIT_POPUP, Duration.ofSeconds(10))) {
+            if (attempt >= 3 && checkLimitPopup()) {
                 logger.info("Concurrent fax limit popup appeared after {} fax(es)", attempt);
                 return;
             }
@@ -93,6 +95,10 @@ public class FaxLineStepObjects {
 
     public void verifyConcurrentFaxLimitPopup() {
         logger.info("Verifying concurrent fax limit popup is displayed");
+        if (limitPopupSeen) {
+            logger.info("Concurrent fax limit popup was observed during the fax burst");
+            return;
+        }
         WebElement popup = testObject.seleniumUtils.waitForVisibleElement(CONCURRENT_LIMIT_POPUP, WAIT_DURATION_MID);
         Assert.assertNotNull(popup, "Concurrent fax limit popup was not found");
         Assert.assertTrue(popup.isDisplayed(), "Concurrent fax limit popup is not visible");
@@ -224,8 +230,10 @@ public class FaxLineStepObjects {
     private SeleniumUtils loginAsReceiver(String receiverEmail, String receiverPassword) {
         logger.info("Opening second browser and logging in as receiver: {}", receiverEmail);
 
-        WebDriver receiverDriver = new ChromeDriver();
-        receiverDriver.manage().window().maximize();
+        org.openqa.selenium.chrome.ChromeOptions receiverOptions = new org.openqa.selenium.chrome.ChromeOptions();
+        TestObject.applyHeadless(receiverOptions);
+        WebDriver receiverDriver = new ChromeDriver(receiverOptions);
+        TestObject.sizeWindow(receiverDriver);
         testObject.appDriver = receiverDriver; // quit by TestObject.quitBrowser()
 
         SeleniumUtils utils = new SeleniumUtils();
@@ -297,19 +305,35 @@ public class FaxLineStepObjects {
     // ── Private helpers ───────────────────────────────────────────────────────
 
     private void sendFaxRequest(String sender, String receiver, String filePath) throws InterruptedException {
+        sendFaxRequest(sender, receiver, filePath, 1000);
+    }
+
+    private void sendFaxRequest(String sender, String receiver, String filePath, long settleMs) throws InterruptedException {
         lastSender = sender;
         testObject.seleniumUtils.waitTillElementClickableAndClick(By.xpath("//button[@aria-label='Fax']"));
         testObject.seleniumUtils.waitTillElementClickableAndClick(By.xpath("//button[@data-qa='dropdown-button']"));
         testObject.seleniumUtils.waitTillElementClickableAndClick(By.xpath(getSenderXpath(sender)));
 
         typeInToField(By.id("search-input"), getReceiverSearch(receiver));
-        Thread.sleep(1000); // let the number search results load before selecting
+        Thread.sleep(settleMs); // let the number search results load before selecting
         testObject.driver.findElement(By.id("search-input")).sendKeys(Keys.ENTER);
-        Thread.sleep(1000); // let the recipient chip resolve before attaching the file
+        Thread.sleep(settleMs); // let the recipient chip resolve before attaching the file
 
         testObject.driver.findElement(By.xpath("//input[@name='new-fax']")).sendKeys(filePath);
         lastSentAt = java.time.LocalDateTime.now();
         logger.info("Fax queued — sender: '{}', receiver: '{}', file: {}", sender, receiver, filePath);
+    }
+
+    /** Non-blocking check; remembers the popup once seen since the toast auto-dismisses. */
+    private boolean checkLimitPopup() {
+        for (WebElement el : testObject.driver.findElements(CONCURRENT_LIMIT_POPUP)) {
+            if (el.isDisplayed()) {
+                limitPopupSeen = true;
+                logger.info("Concurrent fax limit popup seen: '{}'", el.getText());
+                return true;
+            }
+        }
+        return false;
     }
 
     /** Re-locates, scrolls to and clicks the field before typing; retries while the compose pane is still animating/re-rendering. */
@@ -327,7 +351,8 @@ public class FaxLineStepObjects {
                 return;
             } catch (org.openqa.selenium.ElementNotInteractableException
                      | org.openqa.selenium.StaleElementReferenceException e) {
-                if (attempt >= 3) throw e;
+                // The limit toast is short-lived and blocks the pane; record it before it disappears
+                if (attempt >= 3 || checkLimitPopup()) throw e;
                 logger.warn("Field {} not interactable (attempt {}), retrying", locator, attempt);
                 Thread.sleep(2000);
             }

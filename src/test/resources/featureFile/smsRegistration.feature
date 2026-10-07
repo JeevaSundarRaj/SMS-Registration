@@ -6,7 +6,13 @@ Feature: Application Login
 
  Scenario: Verify brand and campaign registration
    Given User is in campaign registration page
-   When User registers my brand and campaign
-   And Brand and Campaign registered successfully
-   Then User Deletes the registration
+   When User deletes the existing campaign
+   And User deletes the existing brand
+   And User registers my brand and campaign
+   Then Brand and Campaign registered successfully
 
+
+# Scenario: Create campaign only
+#   Given User is in campaign registration page
+#   And User registers my brand and campaign
+#   Then Brand and Campaign registered successfully

@@ -125,19 +125,4 @@ public interface TestConfig extends Config {
     @Key("largeFaxFilePath")
     @DefaultValue("src/test/resources/test_data/flower.pdf")
     String largeFaxFilePath();
-
-    // ── Auto-reply config ────────────────────────────────────────────────────
-
-    @Key("autoReplyMessage")
-    @DefaultValue("Thank you for your message. We will get back to you shortly.")
-    String autoReplyMessage();
-
-    @Key("mainline.number")
-    String mainlineNumber();
-
-    @Key("callCenter.number")
-    String callCenterNumber();
-
-    @Key("mainlineDept.number")
-    String mainlineDeptNumber();
 }

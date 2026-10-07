@@ -37,14 +37,31 @@ public class TestObject {
 
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs", prefs);
+        applyHeadless(options);
 
         driver = new ChromeDriver(options);
-        driver.manage().window().maximize();
+        sizeWindow(driver);
 
         seleniumUtils = new SeleniumUtils();
         seleniumUtils.setDriver(driver);
 
         logger.info("WebDriver initialized for user: {}", userModel.email);
+    }
+
+    /** Enables headless Chrome when run with -Dheadless=true. */
+    public static void applyHeadless(ChromeOptions options) {
+        if (Boolean.getBoolean("headless")) {
+            options.addArguments("--headless=new", "--window-size=1920,1080");
+        }
+    }
+
+    /** maximize() is a no-op in headless Chrome and leaves a tiny viewport, so set the size explicitly. */
+    public static void sizeWindow(WebDriver driver) {
+        if (Boolean.getBoolean("headless")) {
+            driver.manage().window().setSize(new org.openqa.selenium.Dimension(1920, 1080));
+        } else {
+            driver.manage().window().maximize();
+        }
     }
 
     public void quitBrowser() {
