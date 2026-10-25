@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = { "classpath:featureFile/smsRegistration.feature"},
+        features = { "classpath:featureFile/smsRegistration.feature", "classpath:featureFile/faxLine.feature"},
         glue = {"stepDefinition"},
         monochrome = true,
         plugin = {

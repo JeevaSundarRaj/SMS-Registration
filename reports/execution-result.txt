@@ -1,4 +1,83 @@
 
+Scenario: Verify fax from User to User is visible to receiver                   # featureFile/faxLine.feature:7
+  Given User is in Login page                                                   # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                 # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                              # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                           # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "User" to "User"                                   # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                      # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And Receiver should see the fax as "Just now" and download opens in a new tab # stepDefinition.FaxLineSteps.receiver_should_see_fax(java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:21
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "User" to "CC"                                            # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "CC" should see the fax as "Just now" and download opens in a new tab            # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:22
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "Dept" to "CC"                                            # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "CC" should see the fax as "Just now" and download opens in a new tab            # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:23
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "User" to "Dept"                                          # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "Dept" should see the fax as "Just now" and download opens in a new tab          # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:24
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "CC" to "Dept"                                            # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "Dept" should see the fax as "Just now" and download opens in a new tab          # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:25
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "CC" to "CC2"                                             # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "CC2" should see the fax as "Just now" and download opens in a new tab           # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario Outline: Verify fax is visible and downloadable on receiving CC or department # featureFile/faxLine.feature:26
+  Given User is in Login page                                                          # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                        # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                                     # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                                  # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a fax from "Dept" to "Dept2"                                         # stepDefinition.FaxLineSteps.user_sends_a_fax_from_to(java.lang.String,java.lang.String)
+  Then Fax should be received successfully                                             # stepDefinition.FaxLineSteps.fax_should_be_received_successfully()
+  And "Dept2" should see the fax as "Just now" and download opens in a new tab         # stepDefinition.FaxLineSteps.entity_should_see_fax(java.lang.String,java.lang.String)
+
+Scenario: Verify concurrent fax limit popup when sending multiple faxes rapidly # featureFile/faxLine.feature:28
+  Given User is in Login page                                                   # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                                 # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                              # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                           # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends multiple faxes continuously from "User" to "User"             # stepDefinition.FaxLineSteps.user_sends_multiple_faxes_continuously(java.lang.String,java.lang.String)
+  Then Concurrent fax limit popup should be displayed                           # stepDefinition.FaxLineSteps.concurrent_fax_limit_popup_should_be_displayed()
+
+Scenario: Verify large volume fax is sent and delivered successfully # featureFile/faxLine.feature:33
+  Given User is in Login page                                        # stepDefinition.LoginPageSteps.user_in_login_page()
+  When User is logging in via username password                      # stepDefinition.LoginPageSteps.user_login_with_credentials()
+  Then User redirected to Homepage                                   # stepDefinition.LoginPageSteps.user_redirected_to_homepage()
+  Given User is using the Dialpad app                                # stepDefinition.FaxLineSteps.user_is_using_the_dialpad_app()
+  When User sends a large volume fax from "User" to "User"           # stepDefinition.FaxLineSteps.user_sends_large_volume_fax(java.lang.String,java.lang.String)
+  Then Large fax should be received successfully                     # stepDefinition.FaxLineSteps.large_fax_should_be_received_successfully()
+
 Scenario: Verify brand and campaign registration  # featureFile/smsRegistration.feature:7
   Given User is in Login page                     # stepDefinition.LoginPageSteps.user_in_login_page()
   When User is logging in via username password   # stepDefinition.LoginPageSteps.user_login_with_credentials()
